@@ -41,15 +41,12 @@ Install dependencies
 bash
 `pip install -r requirements.txt`
 
-Download Dlib's pre-trained face recognition model
+Install the specific Dlib module present in the repository in the form of a `.whl` file. 
+`pip install <Dlib wheel file absolute path>` 
 
-Download the model from this link
-Extract the .bz2 file and place dlib_face_recognition_resnet_model_v1.dat in the models/ directory
+Once installtions are completed, run the actual control file, `main.py`
+
+Execute the command - `python main.py` 
 
 Contributing
 We welcome contributions! Please read the contribution guidelines to get started.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
